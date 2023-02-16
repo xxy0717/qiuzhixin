@@ -2,7 +2,7 @@ import openai
 import streamlit as st
 
 # Initialize the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "my api_key"
 
 def generate_cover_letter(model, prompt, length, tone):
     completions = openai.Completion.create(
